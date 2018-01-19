@@ -1,0 +1,11 @@
+<tsi-header (onMenuClick)="sideNav.toggle()"></tsi-header>
+<md-sidenav-container class="tsi-sidenav-container">
+  <md-sidenav mode="push" #sideNav>
+    <tsi-sidenav (onItemClick)="sideNav.close()"></tsi-sidenav>
+  </md-sidenav>
+  <div class="tsi-sidenav-content">
+    <div class="tsi-router-container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</md-sidenav-container>

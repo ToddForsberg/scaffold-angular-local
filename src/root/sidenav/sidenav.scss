@@ -1,0 +1,15 @@
+@import '../../styles/variables';
+
+.tsi-sidenav {
+  margin-top: 10px;
+}
+
+.tsi-sidenav-logo {
+  padding: 5px 0 0 20px;
+
+  p {
+    color: $color-grey-500;
+    font-size: 11px;
+    font-style: italic;
+  }
+}

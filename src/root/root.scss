@@ -1,0 +1,18 @@
+@import '../styles/variables';
+
+.tsi-sidenav-container {
+  height: 100%;
+  top: $header-height;
+
+  .mat-sidenav {
+    min-width: 200px;
+  }
+
+  .tsi-sidenav-content {
+    padding: 20px;
+  }
+}
+
+.tsi-router-container {
+  padding: 10px 30px;
+}
