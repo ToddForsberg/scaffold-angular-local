@@ -1,14 +1,6 @@
-# The TSI Angular Example App – Local Version!
+# The Angular Scaffolding App
 
-See demo at go/ng-scaffolding-demo
-
-NOTE: There are two versions of this project:
-
-1.  G3 ready for production: setup with relevant BUILD files found at
-    go/ng-scaffolding
-1.  Local for prototyping (this one): generated with [Angular
-    CLI](https://github.com/angular/angular-cli) and found at found at
-    go/ng-scaffolding-local
+[View demo](https://s3.ap-southeast-2.amazonaws.com/demo-g-scaffolding-angular/index.html)
 
 ### What is it?
 
@@ -29,8 +21,8 @@ info upon navigation changes, accessed via a 'routes' service.
 *   SASS
 *   Material design components
 *   Flex-layout to provide flex-box view layout features
-*   Accessig shared data through a singleton service
-*   Top-level and child routes with examples of imperative and decarative route
+*   Accessing shared data through a singleton service
+*   Top-level and child routes with examples of imperative and declarative route
     navigation.
 *   Custom data defined in the route configurations to update components on
     completion of route navigation
